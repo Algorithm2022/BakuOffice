@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html class="wf-loading">
+<head>
+    <[{"snippet":"system_style_sheets"}]>
+    <[{"snippet":"system_head_js"}]>
+    <title><[{"snippet":"title"}]></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <[{"snippet":"system_head_meta_tags"}]>
+    <[{"snippet":"favicon"}]>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/bca05a5e2d.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "Yes We Print LLC",
+ "url" : "https://yesweprint.com",
+ "sameAs" : [
+   "https://www.facebook.com/yesweprint2015/",
+   "https://www.yelp.com/biz/yes-we-print-los-angeles", 
+   "https://www.instagram.com/yesweprintofficial/"
+   ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2633 S Broadway, Los Angeles, CA 90007",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  }
+}
+</script>
+</head>
+<body class="dn-site">
+  
+<header id="DesignerPage" style="display:none">
+  <div class="mobile-contact-us" style=""><p class=""><img src="/uploads/12037607/File/girl-call-center-png-5.png" width="65px" height="65px" alt="Call Center"></p>
+  <p class="callchatclose" style="right: 25px;
+    top: 12px;
+    position: absolute;
+    color: red;
+    cursor: pointer;">CLOSE</p>
+    <p class="">HOURS OF OPERATION<br><strong>Monday-Friday</strong>:&nbsp;9:00 AM - 5:30 PM EST<br><strong>Saturday</strong>:&nbsp;10:00 AM - 3:00 PM EST</p>
+<a class="callbtn" href="tel:8778074909" onclick=" ga('send', 'event', 'Phone Call', 'Click to Call', '8778074909'); " style="
+    border-radius: 50px;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 15px;
+    display: block;
+    background: #f95800;
+    color:white;
+"> CALL </a>
+<a class="chatbtn" onclick="jivo_api.open();" style="
+    border-radius: 50px;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: block;
+    background: #f95800;
+    color:white;
+"> CHAT </a>
+</div>
+    <div class="logo">
+        <img src="/rshared/ssc/i/ri/1922887/400/120/t/0/image.png" alt="YesWePrint Logo">
+    </div>
+    <div class="callorchat">
+        <i class="fas fa-headset" aria-hidden="true" style="
+        color: black;
+        display: block;
+        font-size: 24px;
+        "></i>
+        <p>Call or Chat</p>  
+    </div>
+  <div id="SaveBtnMobile" style="text-align: center;cursor:pointer;" onclick="SaveMyDesign();">
+    <i class="fas fa-save" aria-hidden="true" style='display: block;font-size: 24px;color: #5e5e5e;'></i>
+    <p style="margin:0;">Save</p>
+</div>
+    <div class="quoteprice" onclick="document.querySelector('#add_to_cart_button').click();">
+        <span>$</span><br>
+        <span>Quote</span>
+    </div>
+</header>
+<header>
+  <!-- Special Offer DIV -->
+    <div id="OfferPromoCode" style="display:none;">
+        <div class="firstsector">
+            <p>50$ off your order | <strong> See details</strong></p>
+        </div>
+  <div class="alt-sector">
+            <p>
+                50$ OFF 550$ | Use Code: ENJOYSUMMER
+            </p>
+        </div>
+    </div>
+   <!-- Special Offer DIV END -->
+    <div class="dn_topbar">
+        <div class="dn_support_email">
+            <a href="mailto:info@yesweprint.com">info@yesweprint.com</a>
+        </div>
+        <div class="dn_topbar_menu">
+            <nav class="dn-other-nav">
+              <div class="dn_quick_quote">
+                <a href="/request_quote">Quick Quote</a>
+              </div>
+              <!--
+             --><[{"snippet":"nav_user"}]><!--
+             --><div class="dn-nav-cart"><span id='cart_link'><div class="dn-shopping-cart-icon-dropdown-container" onclick="dnInlinePopup(this, 'dn_cart_popup', { valign:'below', halign: 'rights'});"><span data-cart-items="<[{"variable":"CART.QTY"}]>"><[{"variable":"CART.QTY"}]></span></div></span>
+        </div><!--
+             --><div class="dn-nav-search"><div class="dn-search-icon" onclick="dnInlinePopup(this, 'dn_search_popup_pt', { valign: 'none', halign:'none', backgroundClass: 'dn-faded-bg' });"></div>
+        </div><!--
+            --></nav>
+    </div>
+    </div>
+    <div class="dn-large-header-container">
+        <[{"snippet":"pos_message_header"}]>
+        <div class="dn-large-header"><!--
+   --><div class="dn-logo-container">
+                <div id="site-logo-large">
+                    <[{"widget":{"settings":{"size":"large"},"code":"site_logo","id":"large_logo"}}]>
+                </div>
+            </div><!--
+   --><div class="dn-other"><!--
+     --><div class="dn-other-nav-container">
+                    <div class="dn_external_menu">
+                        <div class="dn_call_detail">
+                            <div class="dn_call_icon">
+                                <img src="/rshared/ssc/i/ri/1916567/f/f/t/0/image.png" alt="Person Talk">
+                            </div>
+                            <div class="dn_call_info">
+                                <h4>Talk to Real Person</h4>
+                                <h5>(877) 807-4909</h5>
+                            </div>
+                        </div>
+                        <!-- <div class="dn_person_detail">
+                            <div class="dn_person_icon">
+                                <img src="/rshared/ssc/i/ri/1916597/0/0/ffffff/0/image.png" alt="Person Chat">
+                            </div>
+                            <div class="dn_person_info">
+                                <h4>Chat With Real Person</h4>
+                                <h5>(877) 807-4909</h5>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  data-behaviour="horizontalFill">
+            <[{"snippet":"nav_main_large"}]>
+        </div>
+    </div><!--
+--><div class="dn-small-header">
+    <div class="mobile-contact-us" style="display:none"><p class=""><img src="https://yesweprint.com/uploads/12037607/File/girl-call-center-png-5.png" width="65px" height="65px" alt="Call Center"></p>
+  <p class="callchatclose" onclick="document.querySelector('.dn-small-header .mobile-contact-us').style.display= 'none';" style="right: 25px;
+    top: 12px;
+    position: absolute;
+    color: red;
+    cursor: pointer;">CLOSE</p>
+    <p class="">Speak to an Expert about your Product or Design</p><p class="">HOURS OF OPERATION<br><strong>Monday-Friday</strong>:&nbsp;9:00 AM - 5:30 PM EST<br><strong>Saturday</strong>:&nbsp;10:00 AM - 3:00 PM EST</p>
+<a class="callbtn" href="tel:8778074909" onclick=" ga('send', 'event', 'Phone Call', 'Click to Call', '8778074909'); " style="
+    border-radius: 50px;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 11px;
+    display: block;
+    background: #f95800;
+    color:white;
+"> CALL </a>
+<a class="chatbtn" onclick="jivo_api.open();" style="
+    border-radius: 50px;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 11px;
+    display: block;
+    background: #f95800;
+    color:white;
+"> CHAT </a>
+</div>
+        <div class="dn-small-logo-container" id="site-logo-small">
+            <[{"widget":{"settings":{"size":"small"},"code":"site_logo","id":"small_logo"}}]>
+        </div>
+        <div class="weprint_info_email" style="">
+            <a href="mailto:info@yesweprint.com">info@yesweprint.com</a>
+          </div>
+        <div id="callorchat" style="display:none">
+           <i class="fas fa-headset" aria-hidden="true" style="
+    color: white;
+    display: block;
+    font-size: 24px;
+    margin: 8px 0px;
+"></i>Call or Chat </div>
+        
+        <div class="weprint_call_icon">
+            <a href="tel:(877) 807-4909">
+                <img alt="phone" src="/uploads/12037607/Image/callIcon.png" style="width: 20px; height: 20px;">
+            </a>
+        </div>
+        <div class="dn-menu-icon dn-behaviour" data-behaviour="dropdownMenu" data-dropdown-menu-id="main_nav_dropdown" data-dropdown-menu-class="dn-nav-dropdown-container dn-nav-main-dropdown-container dn-nav-main-dropdown-small" style="
+    text-align: center;
+    margin: 0px 24px;
+"><div class="dn-dropdown-anchor"></div> Menu </div>
+    </div>
+</header>
+<div class="dn-content">
+    <[{"widget":{"code":"breadcrumbs","id":"breadcrumbs"}}]>
+    <[{"snippet":"alerts"}]>
+    <[{"snippet":"application"}]>
+</div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <footer dynamic_area="footer"><!-- remove the 'dynamic_area' attribute if you want to change the html of the footer -->
+      <div  class="dn-page-section dn-page-section-3349b0c2-64c9-4434-afd0-aad67c9247e3 dn-wrapper dn-page-section-margin-top-none dn-page-section-margin-bottom-none dn-use-page-margin dn-limit-content-width" id="dn_section_3349b0c2-64c9-4434-afd0-aad67c9247e3" style="z-index: 5;"><div class="dn-page-section-margin"><div class="dn-page-section-content"><div class="dn-padding-container" id="dn_s_pc_3349b0c2-64c9-4434-afd0-aad67c9247e3"><!--
+  --><div class="dn-page-columns-container"><!--
+  --></div><!--
+--></div></div></div><div class="dn-background-container">
+  <div >
+    <div class="dn-background-image-container"></div>
+  </div>
+</div>
+</div>
+      <div  class="dn-page-section dn-page-section-3c43116f-7bcc-4f29-ab24-d1aea3492aa8 dn-page-section-cols-1 dn-page-section-spacing-default dn-page-section-margin-top-custom dn-page-section-margin-bottom-custom dn-limit-content-width dn-use-page-margin" id="dn_section_3c43116f-7bcc-4f29-ab24-d1aea3492aa8" style="z-index: 4;"><div class="dn-page-section-margin"><div class="dn-page-section-content"><div class="dn-padding-container" id="dn_s_pc_3c43116f-7bcc-4f29-ab24-d1aea3492aa8"><!--
+  --><div class="dn-page-columns-container"><!--
+  --></div><!--
+--></div></div></div></div>
+      <div  class="dn-page-section dn-page-section-footer1 dn-page-section-cols-4 dn-page-section-spacing-default dn-page-section-margin-top-none dn-page-section-margin-bottom-none dn-limit-content-width dn-use-page-margin" id="dn_section_footer1" style="z-index: 3;"><div class="dn-page-section-margin"><div class="dn-page-section-content"><div class="dn-padding-container" id="dn_s_pc_footer1"><!--
+  --><div class="dn-page-columns-container"><!--
+  --></div><!--
+--></div></div></div></div>
+      <div  class="dn-page-section dn-page-section-6354bcb2-3c96-4b09-bcfc-a26ce99ae0c9 dn-page-section-cols-1 dn-page-section-spacing-default dn-page-section-margin-top-default dn-page-section-margin-bottom-none dn-limit-content-width dn-limit-background-width dn-use-page-margin" id="dn_section_6354bcb2-3c96-4b09-bcfc-a26ce99ae0c9" style="z-index: 2;"><div class="dn-page-section-margin"><div class="dn-page-section-content"><div class="dn-padding-container" id="dn_s_pc_6354bcb2-3c96-4b09-bcfc-a26ce99ae0c9"><!--
+  --><div class="dn-page-columns-container"><!--
+  --></div><!--
+--></div></div></div><div class="dn-background-container">
+  <div >
+    <div class="dn-background-image-container"></div>
+  </div>
+</div>
+</div>
+    <[{"snippet":"pos_message_footer"}]>
+  </footer>
+<div class="dn-inline-popup dn-shopping-cart-icon-dropdown-popup" id="dn_cart_popup">
+    <[{"widget":{"settings":{"empty_quote_message":"Your quote is empty","show_checkout_link":true,"show_thumbnail":true,"show_item_link":true,"show_price":true,"show_summary":0,"thumbnail_size":100,"empty_message":"Your cart is empty","show_name":true,"show_price_with_name":true},"code":"shopping_cart","id":"cart"}}]>
+</div>
+<div class="dn-inline-popup dn-search-page-top" id="dn_search_popup_pt"><!--
+--><form action="/search/results" method="get"><!--
+ --><div class="dn-search-field-container"><!--
+   --><input type="text" name="query" id="search" class="dn-search-field"><!--
+ --></div><!--
+ --><input type="submit" value="as" style="display:none;" /><div class="dn-btn dn-btn-std dn-styled" onclick="dnSubmitForm(this);"><div class="dn-btn-valign"></div><div class="dn-btn-icon"></div><div class="dn-btn-label"><span>Search</span></div></div><!--
+ --><div class="dn-close" onclick="dnCloseInlinePopup();"></div><!----></form><!--
+--></div>
+  <div id="deco_fixed_footer">
+    
+    <div>
+      <a href="https://maps.google.com/?q=2633+South+Broadway%2C+Los+Angeles%2C+California%2C+United+States%2C+90007" id="map_now" target="_Blank"> <span class="map-icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+</span> Directions </a>
+    </div>
+    <div> 
+      <a href="tel:8778074909" id="call_now" onclick=" ga('send', 'event', 'Phone Call', 'Click to Call', '8778074909'); "> <span class="phone-icon"><i class="fa fa-phone" aria-hidden="true"></i>
+</span> Call Now </a>
+    </div>
+  </div>
+<script type="text/javascript">
+  function RequestFunc()
+{
+    var elements = document.getElementsByClassName("formVal");
+    var formData = new FormData(); 
+    for(var i=0; i<elements.length; i++)
+    {
+        formData.append(elements[i].name, elements[i].value);
+    }
+    var xmlHttp = new XMLHttpRequest();
+        xmlHttp.onreadystatechange = function()
+        {
+            if(xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            {
+                console.log(xmlHttp.responseText);
+            }
+        }
+        xmlHttp.open("post", "/shop/verify_coupon?rd=1"); 
+        xmlHttp.send(formData); 
+}
+</script>
+<script type="text/javascript">
+ 
+dnOnLoad(function () {
+    $dnj("div#main_nav_dropdown_close").after(
+        '<div class="dn_call_detail"><div class="dn_call_icon"><img src="/rshared/ssc/i/ri/1916567/f/f/t/0/image.png" alt="Person Talk" style="max-width: 25px;"></div><div class="dn_call_info"><h4>Talk to Real Person</h4><h5><a href="tel:(877) 807-4909">(877) 807-4909</a></h5></div></div>'
+    );
+    $dnj(".dn-menu-icon").on("click", function (e) {
+        $dnj("body").off("click");
+        $dnj("#main_nav_dropdown_close").on("click", function (e) {
+            dnDropDownMenuManager.closeAll();
+        });
+    });
+    $dnj("#add_item_image").on("click", function (e) {
+        $dnj(
+            ".dn-designer-select-decoration-type.dn-designer-add-item-type-image"
+        ).css("display", "flex");
+        $dnj(
+            ".dn-designer-select-decoration-type.dn-designer-add-item-type-text"
+        ).css("display", "none");
+    });
+    $dnj("#add_item_text").on("click", function (e) {
+        $dnj(
+            ".dn-designer-select-decoration-type.dn-designer-add-item-type-text"
+        ).css("display", "flex");
+        $dnj(
+            ".dn-designer-select-decoration-type.dn-designer-add-item-type-image"
+        ).css("display", "none");
+    });
+    $dnj(".dn-btn-cancel").on("click", function () {
+        $dnj(
+            ".dn-designer-select-decoration-type.dn-designer-add-item-type-image"
+        ).css("display", "none");
+    });
+    $dnj(
+        ".dn-designer-decoration-type-TRF,.dn-designer-decoration-type-SCR,.dn-designer-decoration-type-DTG"
+    ).on("click", function () {
+        $dnj(
+            ".dn-designer-select-decoration-type.dn-designer-add-item-type-image"
+        ).css("display", "none");
+    });
+    $dnj("#properties_product_details_content .dn-product-select-size-action")
+        .clone()
+        .appendTo(
+            "#properties_product_details_content .dn-select-product-container"
+        );
+    $dnj(".dn-designer #product_views_panel_popup").prepend(
+        '<div class="designer_help"><a id="dn_help_btn" href="javascript:void(0)" onclick="jivo_api.open(); return false;"> <img src="https://static.thenounproject.com/png/1299414-200.png" alt="Person Chat" style="filter: invert(1)">Help</a></div>'
+    );
+    /* $dnj("#add_to_cart_button"). on('click', function(){
+         d.editSize(); return false;
+       }); */
+    $dnj("input[type=radio][name='cart[rush_order_fee_id]']").change(function () {
+        $dnj("input[type=radio][name='cart[rush_order_fee_id]']")
+            .parent()
+            .parent()
+            .removeClass("selected");
+        $dnj("input[type=radio][name='cart[rush_order_fee_id]']:checked")
+            .parent()
+            .parent()
+            .addClass("selected");
+    });
+    //Product's color name over color
+    $dnj(document).ready(function () {
+        setTextOverColors();
+    });
+    // Product's color name over color -----end
+    $dnj("input[type=radio][name='f[0]']").change(function () {
+        $dnj("input[type=radio][name='f[0]']")
+            .parent()
+            .parent()
+            .removeClass("selected");
+        $dnj("input[type=radio][name='f[0]']:checked")
+            .parent()
+            .parent()
+            .addClass("selected");
+    });
+    $dnj("input[type=radio][name='cart[rush_order_fee_id]']:checked")
+        .parent()
+        .parent()
+        .addClass("selected");
+    $dnj("input[type=radio][name='f[0]']:checked")
+        .parent()
+        .parent()
+        .addClass("selected");
+    $dnj('label[for="cart_rush_order_fee_9594"]')
+        .parent()
+        .append(
+            "<a id='dn_help_btn'  href='javascript:void(0)' onclick='jivo_api.open(); return false;'> <img src='https://static.thenounproject.com/png/1299414-200.png' alt='Person Chat' style='filter: invert(1)'>Help</a>"
+        );
+    $dnj("#dn_checkout_address_container span").each(function () {
+        var text = $dnj(this).text();
+        $dnj(this).text(
+            text.replace("Proceed to next step", "Choose Delivery Dates")
+        );
+    });
+    $dnj("#dn_checkout_address_container span").each(function () {
+        var text = $dnj(this).text();
+        $dnj(this).text(
+            text.replace("Proceed to Shipping Methods", "Choose Delivery Dates")
+        );
+    });
+    $dnj(".dn-checkout-billing-container span").each(function () {
+        var text = $dnj(this).text();
+        $dnj(this).text(
+            text.replace("Proceed to check order information", "Process Payment")
+        );
+    });
+    $dnj(".dn-checkout-shipping-delivery-time")
+        .clone()
+        .appendTo(".dn-checkout-shipping-freight-options");
+    //   setTimeout(function() {
+    //        $dnj(".dn-page-designer .dn-designer-price-container").append(
+    //            "<p id='dn_help_text' style='margin:0px;color: #368;font-weight: bold;'><strong style='color:red'>Final Price</strong> will show up here after item designed and quantity selected</p>"
+    //        );
+    //    }, 400);
+    var currLoc = $dnj(location).attr("pathname");
+    if (currLoc == "/shop/verify") {
+        $dnj("body").addClass("dn_checkout_verify_page");
+    }
+    $dnj(".dn-checkout-shipping-method label").each(function () {
+        var text = $dnj(this).text();
+        $dnj(this).text(
+            text.replace(
+                "Free Local Pick up : Allow up to 0 bus. day(s)",
+                "Free Local Pick up"
+            )
+        );
+    });
+    /*   
+      $dnj("#size_field_popup .dn-btn-ok").attr('onclick',"if(d.currentCProduct.getSizeField().saveFromPopup()) { $dnj( '#price' ).css( 'display', 'block' );$dnj( '#dn_help_text' ).css( 'display', 'none' );closePopup('size_field_popup');}");   */
+    document
+        .querySelector("#size_field_popup .dn-btn-ok")
+        .setAttribute(
+            "onclick",
+            "if(d.currentCProduct.getSizeField().saveFromPopup()) { document.querySelector('#price').style.display='block';document.querySelector('#dn_help_text').style.display='none';closePopup('size_field_popup');}if(d.sizeSelected === true){document.querySelector('#add_to_cart_button').style.backgroundColor = '#45bf22';document.querySelector('#add_to_cart_button > div.dn-btn-label > span').setAttribute('data-content','BUY');}else{document.querySelector('#add_to_cart_button').style.backgroundColor = '#f95800';document.querySelector('#add_to_cart_button > div.dn-btn-label > span').setAttribute('data-content','$ GET PRICE')}"
+        );
+    // $dnj("#size_field_popup .dn-btn-ok").attr('onclick',"if(d.currentCProduct.getSizeField().saveFromPopup()) {if(jQuery('#unit_price_outer_container').css('display') == 'block'){jQuery('#unit_price_outer_container').siblings( '#price' ).css( 'display', 'block' )jQuery('#unit_price_outer_container').siblings( '#dn_help_designer' ).css( 'display', 'none' )} closePopup('size_field_popup'); }");
+    /*    $dnj(".dn-btn-ok").click(function() {
+  if($dnj('#unit_price_outer_container').css('display') == 'block'){
+  $dnj('#unit_price_outer_container').siblings( '#price' ).css( 'display', 'block' ); 
+  $dnj('#unit_price_outer_container').siblings( '#dn_help_text' ).css( 'display', 'none' );
+  } 
+  });
+     
+  setInterval(function(){
+  if($dnj('#unit_price_outer_container').css('display') == 'none'){
+   $dnj('#unit_price_outer_container').siblings( '#price' ).css( 'display', 'none' ); 
+   $dnj('#unit_price_outer_container').siblings( '#dn_help_text' ).css( 'display', 'block' );
+  } 
+  }, 100); */
+    console.log(d.currentCProduct.getSizeField());
+    $(".dn-designer-toolbar-qty-content>h4.dn-styled").Text("Query");
+}); //dnOnLoad  END
+document.addEventListener("DOMContentLoaded", function (event) {
+    if (
+        document.querySelector("#add_to_cart_button > div.dn-btn-label > span") !==
+        null
+    ) {
+        document
+            .querySelector("#add_to_cart_button > div.dn-btn-label > span")
+            .setAttribute("data-content", "$ GET PRICE");
+    }
+    var uploadimg = setInterval(function () {
+        if (document.querySelector("span>a[id ^= cat_n_]") !== null) {
+            let fileimgopen = document.querySelector(
+                "input[type = file][id^=upload_image]"
+            );
+            document.querySelector("span>a[id ^= cat_n_]").onclick = function () {
+                //console.log($('upload_image_98').click());
+                fileimgopen.click();
+                document.querySelector(".dn-d-image-listing-add-image").style.display =
+                    "none";
+            };
+            clearInterval(uploadimg);
+        }
+    }, 250);
+    //After click add desing , open upload img mobile version;
+    if (location.href.includes("yesweprint.com/designer/")) {
+        document
+            .querySelector("#add_image_1")
+            .addEventListener("click", CheckInstagramFacebook);
+        document
+            .querySelector("#add_image_8")
+            .addEventListener("click", CheckInstagramFacebook);
+        d.decorationLibraryManager.cancel = function () {
+            if (
+                this.isInSlimMode() &&
+                $_("selectImageContainer").hasClassName("dn-selecting-category")
+            ) {
+                this.close();
+            } else {
+                this.close();
+            }
+        };
+    }
+});
+function AddImageNum() {
+    let intervalStoreImg = setInterval(function () {
+        let img_category_container = document.querySelector(
+            "div[id^=img_category_container_]"
+        );
+        if (img_category_container != null) {
+            if (img_category_container.getStyle("display") == "block") {
+                img_category_container.click();
+                clearInterval(intervalStoreImg);
+            }
+        }
+    }, 400);
+}
+document.addEventListener("DOMContentLoaded", function (event) {
+    let checkElement = setInterval(function () {
+        if (document.querySelector("#add_image_8") != null) {
+            clearInterval(checkElement);
+            document
+                .querySelector("#add_image_8")
+                .addEventListener("click", AddImageNum);
+            document
+                .querySelector("#add_image_1")
+                .addEventListener("click", AddImageNum);
+        }
+    }, 500);
+});
+// ****////
+function CheckInstagramFacebook() {
+    var fbinsta = setInterval(function () {
+        let instagram = document.querySelector(
+            "ul[id^=categories_].dn-hierarchy>li#cat_-3.dn-hierarchy-node.dn-thumb"
+        );
+        let facebook = document.querySelector(
+            "ul[id^=categories_].dn-hierarchy>li#cat_-4.dn-hierarchy-node.dn-thumb"
+        );
+        let instagram2 = document.querySelector(
+            "ul[id^=categories_].dn-hierarchy>li#cat_-10.dn-hierarchy-node.dn-thumb"
+        );
+        let facebook2 = document.querySelector(
+            "ul[id^=categories_].dn-hierarchy>li#cat_-11.dn-hierarchy-node.dn-thumb"
+        );
+        if (instagram != null) {
+            if (instagram.getStyle("display") == "list-item") {
+                instagram.style.display = "none";
+                facebook.style.display = "none";
+                clearInterval(fbinsta);
+            }
+        }
+        if (instagram2 != null) {
+            if (instagram2.getStyle("display") == "list-item") {
+                instagram2.style.display = "none";
+                facebook2.style.display = "none";
+                clearInterval(fbinsta);
+            }
+        }
+    }, 500);
+} //CheckInstagramFacebook  function END
+document.addEventListener("DOMContentLoaded", function (event) {
+    if (document.querySelector("#update_cart_button") !== null) {
+        document
+            .querySelector("#update_cart_button")
+            .parentNode.removeChild(document.querySelector("#update_cart_button"));
+        document.querySelector("#add_to_cart_button").style.display = "block";
+    }
+    /*   setInterval(function(){
+     if(document.querySelector("#dn_help_text") !== null){
+              if(document.querySelector("#dn_help_text").style.display == 'none'){
+  document.querySelector("#add_to_cart_button").style.backgroundColor = 'green';
+  document.querySelector("#add_to_cart_button > div.dn-btn-label > span").setAttribute('data-content','BUY');
+              }else{
+           document.querySelector("#add_to_cart_button").style.backgroundColor = '#f95800';
+             document.querySelector("#add_to_cart_button > div.dn-btn-label > span").setAttribute('data-content','$ GET PRICE')
+           }
+     }
+  },500)  */
+    /*
+  if(document.querySelector("#add_to_cart_button") !== null){
+   document.querySelector("#add_to_cart_button").onclick = function(){
+  if(document.querySelector("#dn_help_text").style.display == 'none'){
+  d.currentCProduct.save();}
+  };
+  }
+   */
+    // d.editSize function EDIT in designer page START
+    if (location.href.includes("yesweprint.com/designer/")) {
+        d.editSize = function () {
+            if (!d.currentCProduct.hasDecorations()) {
+                swal("Your design is blank! Please add text or an image before checking sizes and pricing.");
+                return false;
+            };
+            if (this.currentCProduct.usingTeamnames) {
+                this.currentCProduct.getTeamNames().editTeamNames();
+            } else {
+              designsizeeditdiv();
+                this.currentCProduct.getSizeField().refreshHtml();
+                popup('size_field_popup');
+            }
+            SetInputModeSizes();
+        };
+    };
+    //d.editSize function EDIT in designer page  END
+    if (document.querySelector("#add_to_cart_button") !== null) {
+        document.querySelector("#add_to_cart_button").onclick = function () {
+            if (d.sizeSelected === true && d.currentCProduct.hasDecorations()) {
+                d.currentCProduct.save();
+                d.currentCProduct.alertCheckFinished(true);
+            } else {
+                d.editSize();
+                UpdateFinalTotalAndQty();
+            }
+        };
+    }
+});
+//Checkout Page
+document.addEventListener("DOMContentLoaded", function (event) {
+    if (
+        document.querySelector("meta[content ^= 'https://yesweprint.com/shop/']") !=
+        null &&
+        document.querySelector("#cart_rush_order_fee_9594") != null
+    ) {
+        document.querySelector("#cart_rush_order_fee_9594").onchange = function () {
+            alert(
+                "Please note: if you didn’t contact for a “Super rush” service, it will be considered as a regular order, not rush."
+            );
+            document.querySelector("#estimated_delivery_days_1").innerText =
+                "On Approved Day";
+        };
+    }
+});
+//T-Shirt More Details under Color List
+document.addEventListener("DOMContentLoaded", function (event) {
+    if (location.pathname.includes("/blank_product/")) {
+        let ColorsInBlankProductPage = document.querySelectorAll(".dn-color-panel-cell");
+        for (let color of ColorsInBlankProductPage) {
+            color.addEventListener("click", function () {
+                let innertxt = document.querySelector("#dn_selected_color_label")
+                    .innerText;
+                document.querySelector("#dn_selected_color_label").innerText =
+                    "Selected " + innertxt;
+            });
+        }; //for end
+        var description = document.querySelector(
+            "#properties_product_details > div.dn-product-description.dn-content-expander.dn-behaviour.dn-content-expandable"
+        );
+        var moreimgs = document.querySelector("#extra_images");
+    }
+    let x = window.matchMedia("(max-width: 576px)");
+    if (x.matches === true && description !== undefined) {
+        description.hide();
+        moreimgs.hide();
+        document
+            .querySelector("#color_field_container")
+            .append(moreimgs.show(), description.show());
+        let tshirtviews = document.querySelector(
+            ".dn-product-views-container.dn-behaviour.dn-grid-container "
+        ); //T-Shirt Views
+        document
+            .querySelector(".dn-product-main-image-container")
+            .parentElement.appendChild(tshirtviews);
+        //Fix Tshirt Name 
+        document.querySelector("#extra_images").after(document.querySelector("#properties_product_details > div.dn-product-heading-container-above-content"));
+        document.querySelector("#color_field_container").style.marginTop = "3rem";
+        document.querySelector("#pt_col_1").style.padding = "7px";
+    }
+});
+//T-Shirt More Details under Color List  END
+// ---------------------   \\
+//callorchat DIV
+document.addEventListener("DOMContentLoaded", function (event) {
+    document.querySelector("div#callorchat").onclick = function () {
+        if (
+            document.querySelector(".dn-small-header div.mobile-contact-us").style.display != "block"
+        ) {
+            document.querySelector(".dn-small-header div.mobile-contact-us").style.display = "block";
+        } else {
+            document.querySelector(".dn-small-header div.mobile-contact-us").style.display = "none";
+        }
+    };
+    document.querySelector("#DesignerPage > div.callorchat").onclick = function () {
+        if (
+            document.querySelector("header#DesignerPage .mobile-contact-us").style.display != "block"
+        ) {
+            document.querySelector("header#DesignerPage .mobile-contact-us").style.display = "block";
+        } else {
+            document.querySelector("header#DesignerPage .mobile-contact-us").style.display = "none";
+        }
+    };
+    document.querySelector(
+        "header#DesignerPage div.mobile-contact-us .callchatclose"
+    ).onclick = function () {
+        document.querySelector("header#DesignerPage .mobile-contact-us").style.display = "none";
+    };
+});
+//callorchat DIV END.
+// ---------------------   \\
+//image popup close btn
+document.addEventListener("DOMContentLoaded", function (event) {
+    function imagepopupclose() {
+        if (
+            document.querySelector(
+                "#image_popup > div.dn-popup.dn-designer-popup.dn-image-popup"
+            ) != null
+        ) {
+            let closebtnonpopup = document.createElement("strong");
+            closebtnonpopup.setAttribute("id", "closebtnimagepopup");
+            closebtnonpopup.innerText = "CLOSE";
+            document
+                .querySelector(
+                    "#image_popup > div.dn-popup.dn-designer-popup.dn-image-popup"
+                )
+                .appendChild(closebtnonpopup);
+            document
+                .querySelector("#closebtnimagepopup")
+                .setAttribute("onclick", "closePopup('image_popup')");
+        }
+    }
+    imagepopupclose();
+});
+//image popup close btn END
+// ---------------------   \\
+//Special Offer DIV JS
+function SpecialOfferDiv() {
+    if (
+        document.querySelector("div#OfferPromoCode>div.firstsector>p>strong")
+            .innerText == "Hide"
+    ) {
+        document.querySelector("div#OfferPromoCode div.alt-sector").style.margin =
+            " -36px auto 8px auto";
+        document.querySelector(
+            "div#OfferPromoCode>div.firstsector>p>strong"
+        ).innerText = "See details";
+    } else {
+        document.querySelector("div#OfferPromoCode div.alt-sector").style.margin =
+            " 0 auto 8px auto";
+        document.querySelector(
+            "div#OfferPromoCode div.firstsector p strong"
+        ).innerText = "Hide";
+    }
+}
+document.addEventListener("DOMContentLoaded", function (event) {
+    document
+        .querySelector("div#OfferPromoCode>div.firstsector>p>strong")
+        .setAttribute("onclick", "SpecialOfferDiv()");
+});
+//Special Offer DIV JS END.
+//-------------------------------//
+//T-Shirt zoom + auto
+document.addEventListener("DOMContentLoaded", function (event) {
+    if (
+        location.href.includes("/designer/")
+        // document.querySelector("img.dn-product-main-image") != null
+    ) {
+        try {
+          /*
+          let styleCSSdnProductView = document.createElement("style");
+            styleCSSdnProductView.innerHTML =
+                ".dn-product-view-container{transform:scale(1)}" +
+                "@media only screen and (max-width: 768px){.dn-product-view-container{transform:scale(1.6);}}";
+            document.querySelector("head").append(styleCSSdnProductView);
+           */
+            d.setZoomed = function () { };
+          /*
+            var myZoomControlVariable = window.matchMedia("(max-width: 768px)");
+            myZoomControlFunction(myZoomControlVariable); // Call listener function at run time
+            myZoomControlVariable.addListener(myZoomControlFunction);
+            */
+        } catch (err) { };
+    } //if locationhref end
+});
+function GetVisibleTshirt() {
+    let allT = document.querySelectorAll(
+        "div.dn-product-view-container[id^=prod_edit_]"
+    );
+    var currentT_Shirt = null;
+    if (allT.length == 1) { currentT_Shirt = allT[0]; };
+    for (i = 0; i < allT.length; i++) {
+        if (allT.length != 1 && allT[i].style.display != "none") {
+            currentT_Shirt = allT[i];
+        }
+    } //for loop end.
+    return currentT_Shirt;
+} // function GetVisibleTshirt end
+  
+  /*
+function myZoomControlFunction(x) {
+    if (x.matches) {
+        // If media query matches
+        GetVisibleTshirt().style.transform = "scale(1.6)";
+        document.querySelector("#d_layout").onclick = function () {
+            if (document.querySelector("#d_layout").style.display != "none") {
+                GetVisibleTshirt().style.transition = "1s";
+                GetVisibleTshirt().style.transform = "scale(1.6)";
+                document.querySelector("#d_layout").style.display = "none";
+                document.querySelector("#d_design").style.display = "block";
+            }
+        };
+        document.querySelector("#d_design").onclick = function () {
+            if (document.querySelector("#d_design").style.display != "none") {
+                GetVisibleTshirt().style.transition = "1s";
+                GetVisibleTshirt().style.transform = "scale(1.9)";
+                document.querySelector("#d_design").style.display = "none";
+                document.querySelector("#d_layout").style.display = "block";
+            }
+        };
+    } else {
+        GetVisibleTshirt().style.transform = "scale(1)";
+        document.querySelector("#d_design").onclick = function () {
+            GetVisibleTshirt().style.transition = "1s";
+            GetVisibleTshirt().style.transform = "scale(1.5)";
+            document.querySelector("#d_design").style.display = "none";
+            document.querySelector("#d_layout").style.display = "block";
+        };
+        document.querySelector("#d_layout").onclick = function () {
+            GetVisibleTshirt().style.transition = "1s";
+            GetVisibleTshirt().style.transform = "scale(1)";
+            document.querySelector("#d_layout").style.display = "none";
+            document.querySelector("#d_design").style.display = "block";
+        };
+    }
+} 
+*/
+//function myZoomControlFunction end
+//T-Shirt zoom + auto END
+document.addEventListener("DOMContentLoaded", function (event) {
+    if (location.href.includes("/designer/customize")) {
+        let sizeinputs = document.querySelectorAll("#multi_container_2 ul li input");
+        for (let i = 0; i < sizeinputs.length; i++) {
+            sizeinputs[i].setAttribute("onchange", "CalculatePriceForSize()");
+        }
+        var arrJsonSelectedSizes = {};
+    }
+});
+function CalculatePriceForSize() {
+    let inputValue = event.target.value;
+    let inputID = event.target.getAttribute("id");
+    arrJsonSelectedSizes[inputID] = inputValue;
+    d.currentCProduct.getSizeField().saveFromPopup();
+    if (document.querySelector("#TotalPrice") === null) {
+        let TotalPriceDiv = document.createElement("div");
+        TotalPriceDiv.setAttribute("style", "margin-top:10px;text-align:center");
+        TotalPriceDiv.innerText = "Total Price: $";
+        let TotalPrice = document.createElement("p");
+        TotalPrice.setAttribute("id", "TotalPrice");
+        TotalPrice.innerText = "0.00";
+        TotalPriceDiv.append(TotalPrice);
+        document.querySelector("#product_type_sf_container").append(TotalPriceDiv);
+    }
+    document.querySelector("#TotalPrice").innerText = d.currentCProduct.calculatedFinalTotal;
+    for (let i in arrJsonSelectedSizes) {
+        for (let j of sizeinputs) {
+            if (i == j.getAttribute("id")) {
+                j.value = arrJsonSelectedSizes[i];
+            }
+        }
+    }
+}
+//T-Shirt Views Left Right Arrows
+var ArrowClickCnt = 0;
+document.onreadystatechange = () => {
+    if (document.readyState === "complete" || document.readyState === "loaded") {
+        if (location.href.includes("yesweprint.com/designer/")) {
+            document.querySelector("#select_product_toolbar > label.dn-small").innerText += "s";
+            // Top Px Fix of T-Shirt
+            let tshirttop = document.querySelector(
+                "div.dn-product-view-container[id^=prod_edit_]"
+            ).style.top;
+            // Top Px Fix of T-Shirt END
+            let arrows = document.createElement("div");
+            arrows.setAttribute("id", "ViewArrows");
+            arrows.innerHTML =
+                "<i class='fas fa-angle-left'></i> <i class='fas fa-angle-right'></i>";
+            document.querySelector("#designer_container").append(arrows);
+            let style = document.createElement("style");
+            style.innerText =
+                "div#ViewArrows{display:none;width:100%;position:absolute;top:50%;" +
+                "transform:translateY(-50%);opacity:0.3;font-size:50px;z-index:2;}" +
+                "div#ViewArrows i:nth-child(1){position:absolute;left:8px;}div#ViewArrows i:nth-child(2){position:absolute;right:8px;}" +
+                "@media (max-width: 768px){ jdiv > jdiv.__jivoMobileButton{position:absolute;bottom:55px;}" +
+                "div.dn-product-view-container[id^=prod_edit_]{" +
+             	//	"top:170px !important"+
+            
+        			"}" +
+                "}";
+            document.querySelector("head").append(style);
+        }
+        //T-Shirt Views Left Right Arrows END
+        //T-Shirt Views Left Right Click Function
+        if (location.href.includes("yesweprint.com/designer/")) {
+            document.querySelector("#ViewArrows > i.fas.fa-angle-left").onclick = function () {
+                let viewscnt = document.querySelectorAll("#product_views li").length;
+                ArrowClickCnt--;
+                if (ArrowClickCnt < viewscnt) {
+                    if (ArrowClickCnt < 0) { ArrowClickCnt = viewscnt - 1; }
+                    document.querySelectorAll("#product_views li")[ArrowClickCnt].click();
+                }
+            };
+            document.querySelector("#ViewArrows > i.fas.fa-angle-right").onclick = function () {
+                let viewscnt = document.querySelectorAll("#product_views li").length;
+                ArrowClickCnt++;
+                if (ArrowClickCnt < viewscnt) {
+                    document.querySelectorAll("#product_views li")[ArrowClickCnt].click();
+                } else {
+                    ArrowClickCnt = 0;
+                    document.querySelectorAll("#product_views li")[ArrowClickCnt].click();
+                }
+            };
+        }
+    }
+}; //T-Shirt Views Left Right Click Function END
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //  
+// Designer Page CheckOut Popup
+document.addEventListener("DOMContentLoaded", function () {
+    if (location.href.includes("/designer/")) {
+        document.querySelector("header#DesignerPage").style.display = "";
+        document
+            .querySelector("#add_to_cart_button")
+            .addEventListener("click",designsizeeditdiv());
+    }
+});
+let arrayCalcPriceToSize = {};
+function ClickedCalcBtn() {
+    document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-footer.dn-2-button > div.dn-btn.dn-btn-cancel.dn-styled").style.display = "none";
+    document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-footer.dn-2-button").style.visibility = "visible";
+    if (document.querySelector("jdiv .__jivoMobileButton") != null) {
+        document.querySelector("jdiv .__jivoMobileButton").style.zIndex = 777;
+    }
+    let sizeinputsvalues = document.querySelectorAll("#multi_container_2 > ul li input");
+    for (i = 0; i < sizeinputsvalues.length; i++) {
+        arrayCalcPriceToSize[sizeinputsvalues[i].getAttribute("id")] = sizeinputsvalues[i].value;
+    };
+    document.querySelector("#CalcBtn").style.display = "none";
+    sizeinputs = document.querySelectorAll("#multi_container_2 > ul li input");
+    for (let i = 0; i < sizeinputs.length; i++) {
+        sizeinputs[i].setAttribute("onchange", "CalculatePriceForSize()");
+        sizeinputs[i].setAttribute("inputmode", "numeric");
+        if (parseInt(sizeinputs[i].value) > 0) {
+            quantity += parseInt(sizeinputs[i].value);
+        }
+    }
+    d.currentCProduct.getSizeField().saveFromPopup();
+    if (document.querySelector("div#QtyTipsTotal") == null) {
+        let QtyTipsTotal = document.createElement("div");
+        QtyTipsTotal.setAttribute("id", "QtyTipsTotal");
+        let QtyTipsTotalHTML =
+            "  <p id='qty'>Quantity: <span></span></p> " +
+            // "<p id='saving_tips'>Saving Tips: <span></span></p>" +
+            " <p id='item_total'>Subtotal: <span id='ItemTotalPrice'></span></p>";
+        QtyTipsTotal.innerHTML = QtyTipsTotalHTML;
+        document.querySelector(
+            "#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-content-container > div"
+        ).append(QtyTipsTotal);
+    }
+    UpdateFinalTotalAndQty();
+    let AfterCalcStyle = '<style>' +
+        '        div#QtyTipsTotal {' +
+        '        margin-left:8px;} ' +
+        '        div#QtyTipsTotal p {' +
+        '            font-weight: 500;' +
+        '            font-family: Montserrat;' +
+        '        }' +
+        '#qty > span{border: 2px solid #c1c3c3;background-color:#ececec;padding: 6px;border-radius:7px;}' +
+        '        ' +
+        '        p#item_total span#ItemTotalPrice {' +
+        '            color: #55b248;' +
+        '        }' +
+        '        ' +
+        '        .shipping-rush-order-options {' +
+        '            width: 100%;' +
+        '            margin: 0px;' +
+        '        }' +
+        '        ' +
+        '        .shipping-options {' +
+        '            margin:1rem 0;' +
+        '            display: flex;' +
+        '            justify-content: space-evenly;' +
+        '        }' +
+        '        ' +
+        '        .shipping-options div:nth-child(1) {' +
+        '            background-color: #60bb54;' +
+        '        }' +
+        '        ' +
+        '        .shipping-options div:nth-child(1) p {' +
+        '            color: white !important;' +
+        '        }' +
+        '        ' +
+        '        .shipping-options div {' +
+        '            border: 2px solid #e8eced;' +
+        '            padding: 8px;' +
+        '            border-radius: 15px;' +
+        '            background-color: #f2fef0;' +
+        '            text-align: center;' +
+        '            cursor: pointer;' +
+        '            width: 31%;' +
+        '        }' +
+        '        ' +
+        '        .shipping-options div p {' +
+        '            font-weight: 600;' +
+        '            font-family: Montserrat;' +
+        '        }' +
+        '        ' +
+        '        .need-contact-me-option {' +
+        '            width: 8%;' +
+        '        }' +
+        '        ' +
+        '        .shipping-rush-order-options>p {' +
+        '            text-align: center;' +
+        '            font-family: Monospace;' +
+        '            font-size: 15px;' +
+        '        }' +
+        '    </style>';
+    document.querySelector("head").innerHTML += AfterCalcStyle;
+    let shippingOptions = '<div class="shipping-rush-order-options">' +
+        '        <p>You\'ll be able to choose one of these shipping dates on checkout page.</p>' +
+        '        <div class="shipping-options">' +
+        '            <div class="free-shipping-option">' +
+        '                <p>' + GetWorkingDays(6) + '<br>' + GetWorkingWeekDay(6) + '</p>' +
+        '                <p>FREE</p>' +
+        '            </div>' +
+        '            <div class="rush-shipping-option">' +
+        '                <p>' + GetWorkingDays(4) + '<br>' + GetWorkingWeekDay(4) + '</p>' +
+        '                <p>Extra 15%</p>' +
+        '            </div>' +
+        '            <div class="super-rush-shipping-option">' +
+        '                <p>Super Rush</p>' +
+        '                <p>Extra 20%</p>' +
+        '            </div>' +
+        '            <div class="need-contact-me-option" style="display: none;"></div>' +
+        '        </div>' +
+        '    </div>';
+    document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-content-container > div").innerHTML += shippingOptions;
+    let AlertOnClickShippingOptions = document.querySelectorAll("div.shipping-rush-order-options .shipping-options div");
+    for (let i = 0; i < AlertOnClickShippingOptions.length; i++) {
+        AlertOnClickShippingOptions[i].setAttribute("onclick", 'swal("For your convenience we show you current available shipping dates in advance.You will be able to choose shipping date on checkout page.")');
+    }
+    //Add To Cart button style
+    var AddToCartStyle = '<style>' +
+        '        div.add-to-cart-button-in-livecalc {' +
+        '            width: 100%;' +
+        '            display: flex;' +
+        '            flex-direction: column;' +
+        '            justify-content: center;' +
+        '            align-items: center;' +
+        '            text-align: center;' +
+        '        }' +
+        '        ' +
+        '        div.add-to-cart-button-in-livecalc>p {' +
+        '            font-family: Montserrat;' +
+        '        }' +
+        '        ' +
+        '        div.add-to-cart-button-in-livecalc>a {' +
+        '            font-size: 20px;' +
+        '            background-color: #3aaf2a !important;' +
+        '            padding: 15px;' +
+        '            color: white !important;' +
+        '            font-family: Montserrat;' +
+        '            text-decoration: none;' +
+        '            width: 90%;' +
+        '            height: auto;' +
+        '            border-radius: 10px;' +
+        '        }' +
+        '        ' +
+        '        div.add-to-cart-button-in-livecalc>a i {' +
+        '            font-size: 20px;' +
+        '        }' +
+        '        ' +
+        '        div.add-to-cart-button-in-livecalc>a:hover {' +
+        '            background-color: #19d400;' +
+        '        }' +
+        '    </style>';
+    document.querySelector("head").innerHTML += AddToCartStyle;
+    //Add to Cart HTML
+    var AddToCartHTML = '<div class="add-to-cart-button-in-livecalc">' +
+        '        <p style="display:none">We\'ve got you back! Our designer will review your desing before printing.</p>' +
+        '        <a href="#" onclick="RedirectCheckoutPage(); return false;">Add to cart<i class="fas fa-shopping-cart"></i></a>' +
+        '    </div>';
+    document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-footer.dn-2-button").innerHTML += AddToCartHTML;
+    setSizeInputValue();
+};
+var sizeinputs;
+var quantity = 0;
+function CalculatePriceForSize() {
+    let inputValue = event.target.value;
+    let inputID = event.target.getAttribute("id");
+    arrayCalcPriceToSize[inputID] = inputValue;
+    d.currentCProduct.getSizeField().saveFromPopup();
+    document.querySelector("p#item_total span#ItemTotalPrice").innerText = '$' + d.currentCProduct.calculatedFinalTotal + " (" + d.currentCProduct.getUnitPrice() + "ea.)";
+    document.querySelector("p#qty span").innerText = d.currentCProduct.qty;
+    setSizeInputValue();
+}
+function setSizeInputValue() {
+    let sizeinputs = document.querySelectorAll("#multi_container_2 > ul li input");
+    for (let i in arrayCalcPriceToSize) {
+        for (let j of sizeinputs) {
+            if (i == j.getAttribute("id")) {
+                j.value = arrayCalcPriceToSize[i];
+            }
+        }
+    }
+}
+function RedirectCheckoutPage() {
+    document.querySelector("#show_cart_popup").style.display = 'none';
+    d.currentCProduct.save();
+    let ChechkAddedToCartInterval = setInterval(function () {
+        if (d.currentCProduct.addedToCart) {
+            d.checkout();
+            clearInterval(ChechkAddedToCartInterval);
+        }
+    }, 100);
+}
+function UpdateFinalTotalAndQty() {
+    if (Object.entries(arrayCalcPriceToSize).length > 0) {
+        document.querySelector("p#item_total span#ItemTotalPrice").innerText = '$' + d.currentCProduct.calculatedFinalTotal + " (" + d.currentCProduct.getUnitPrice() + "ea.)";
+        document.querySelector("p#qty span").innerText = d.currentCProduct.qty;
+        d.sizeSelected = true;
+    }
+}
+function SetInputModeSizes() {
+    var sizeinputs = document.querySelectorAll("#multi_container_2 ul li input");
+    for (let h = 0; h < sizeinputs.length; h++) {
+        sizeinputs[h].setAttribute("inputmode", "numeric");
+    }
+};
+document.addEventListener("DOMContentLoaded", function () {
+    if (location.href.includes("/designer/")) {
+        if (document.querySelector(".main-menu-toolbar-button-color-count") == null) {
+            document.querySelector(".dn-icon-tshirt").innerHTML += '<span class="main-menu-toolbar-button-color-count">!</span>';
+        };
+        let u = "d.showProductPanel();document.querySelector('#DesignerPage').style.display = 'none'; return false;"
+        document.querySelector("#select_product_toolbar").setAttribute("onclick", u);
+        let o = "d.callCurrentSlimModeAction();document.querySelector('#DesignerPage').style.display = 'flex';"
+        document.querySelector("#properties_panel_content .dn-btn.dn-btn-ok.dn-styled").setAttribute("onclick", o);
+        document.querySelector("#product_lifestyle_image").setAttribute("src", document.querySelector("#product_views > li.dn-d-sel-view > img").getAttribute("src"));
+        let TshirtColors = document.querySelectorAll("#type_colors_container .dn-color-panel-cell");
+        for (let h = 0; h < TshirtColors.length; h++) {
+            TshirtColors[h].addEventListener('click', ChangeTshirtColor);
+        }
+        //Onchange product
+        document.querySelector("#properties_product_details_content > div.dn-select-product-container > div").setAttribute("onclick", "d.selectProduct(); UpdateFunctionOnChangeProduct();");
+    };
+});
+  
+function ChangeTshirtColor() {
+    setTimeout(function(){
+    let CheckProdImgInterval = setInterval(function () {
+      let OldSrc = document.querySelector("#product_lifestyle_image").getAttribute("src");
+        if (d.currentCView.viewSrc != undefined) {
+            document.querySelector("#product_lifestyle_image").setAttribute("src", d.currentCView.viewSrc);
+            if (OldSrc == d.currentCView.viewSrc) {
+                clearInterval(CheckProdImgInterval);
+            }
+        }
+        setTextOverColors();
+    }, 200);
+},1500);
+}
+function UpdateFunctionOnChangeProduct() {
+    let Tshirts = document.querySelectorAll("#product_list div[id ^= sp_prod__]");
+    for (let a of Tshirts) {
+        a.addEventListener("click", ChangeTshirtColor)
+    }
+}
+//Click Edit ( "Settings" ) on Selectable When Add Text or Img START
+document.addEventListener("DOMContentLoaded", function () {
+    if (location.href.includes("yesweprint.com/designer/")) {
+        // Add Text "Selected Color" in colors     
+        let span = document.createElement("span");
+        span.innerText = "Selected color:";
+        span.style.fontWeight = "bold";
+        document.querySelector("#dn_selected_color_label").parentNode.insertBefore(span, document.querySelector("#dn_selected_color_label").previousSibling);
+        document.querySelector("#dn_selected_color_label").style.display = "inline-block";
+        document.querySelector("#dn_selected_color_label").style.fontWeight = "bold";
+        // Add Text "Selected Color" in colors END
+        document.querySelector("#ts_edit span").innerText = "Edit";
+        document.querySelector("#new_text_popup div.dn-btn.dn-btn-ok.dn-styled").setAttribute("onclick", "d.continueAddText(); closePopup('new_text_popup');SelectableTextOrImageOnTshirt();")
+    };
+});
+var ElementSelectableTEXTorIMG;
+function SelectableTextOrImageOnTshirt() {
+    let HasTextorImg = setInterval(function () {
+        ElementSelectableTEXTorIMG = document.querySelector("div[id^=d_].dn-designer-element.dn-designer-element-selectable");
+        if (ElementSelectableTEXTorIMG != null) {
+            ElementSelectableTEXTorIMG.setAttribute('ontouchend', 'SetClickEventOnElEdit();');
+            clearInterval(HasTextorImg);
+            if (ElementSelectableTEXTorIMG.childElementCount > 0) {
+                SetClickEventOnElEdit();
+            }
+        }
+    }, 100);
+};
+function SetClickEventOnElEdit() {
+    setTimeout(function () {
+        let children = document.querySelector("div[id^=d_].dn-designer-element.dn-designer-element-selectable").children;
+        for (let j of children) {
+            if (j.getAttribute("class") == 'dn-d-el-edit') {
+                j.ontouchstart = function () { document.querySelector('#DesignerPage').style.display = 'none'; }
+            }
+        }
+    }, 100)
+}
+//Click Edit ( "Settings" ) on Selectable When Add Text or Img END
+//~~~~~//
+// Get Business Days Function
+function GetWorkingDays(days) {
+    let startDate = new Date();
+    let count = 0;
+    while (count < days) {
+        startDate.setDate(startDate.getDate() + 1);
+        if (startDate.getDay() != 0 && startDate.getDay() != 6)
+            count++;
+    }
+    return `${startDate.getDate()} ${startDate.toLocaleString('default', { month: 'long' })}`;
+}
+function GetWorkingWeekDay(days) {
+    let WeekDaysShort = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    let startDate = new Date();
+    let count = 0;
+    while (count < days) {
+        startDate.setDate(startDate.getDate() + 1);
+        if (startDate.getDay() != 0 && startDate.getDay() != 6)
+            count++;
+    }
+    return WeekDaysShort[startDate.getDay() - 1];
+}
+// Shipping Options Section in Home Page (Mob and Pc version) START CODE
+document.addEventListener("DOMContentLoaded", function (event) {
+    if (location.pathname == "/") {
+        document.getElementById("dn_section_63465c19-1ac6-413e-95c6-c77806b8e766").style.display = "none";
+        document.getElementById("dn_section_0a043e3d-5543-4780-89de-46f7d3ef0a61").style.visibility = "none";
+        let images = [
+            "/uploads/12037607/Image/1.png",
+            "/uploads/12037607/Image/2.png",
+            "/uploads/12037607/Image/3.png"
+        ];
+        let headings = [
+            "Standard Production",
+            "Rush",
+            "Need Earlier?"
+        ];
+        let paragraphs = [
+            "Arrives by <strong>" + GetWorkingWeekDay(6) + ", " + GetWorkingDays(6) + "</strong>",
+            "Guaranteed on <strong>" + GetWorkingWeekDay(2) + ", " + GetWorkingDays(2) + "</strong>",
+            "Call us now!<br /><strong>(877) 807-4909</strong>"
+        ];
+        let main = '<div class="delivery">' +
+            '        <div class="shipping-item">' +
+            '                <div class="child-1">' +
+            `                    <img src="${images[0]}">` +
+            '                </div>' +
+            '                <div class="child-2">' +
+            `                    <h4 class="delivery-heading">${headings[0]}</h4>` +
+            `                    <p class="delivery-paragraph">${paragraphs[0]}</p>` +
+            '                </div>' +
+            '        </div>' +
+            '        <div class="shipping-item">' +
+            '                <div class="child-1">' +
+            `                    <img src="${images[1]}">` +
+            '                </div>' +
+            '                <div class="child-2">' +
+            `                    <h4 class="delivery-heading">${headings[1]}</h4>` +
+            `                    <p class="delivery-paragraph">${paragraphs[1]}</p>` +
+            '                </div>' +
+            '        </div>' +
+            '        <div class="shipping-item">' +
+            '                <div class="child-1">' +
+            `                    <img src="${images[2]}">` +
+            '                </div>' +
+            '                <div class="child-2">' +
+            `                    <h4 class="delivery-heading">${headings[2]}</h4>` +
+            `                    <p class="delivery-paragraph">${paragraphs[2]}</p>` +
+            '                </div>' +
+            '        </div>' +
+            '    </div>';
+        let style = '.delivery {' +
+            '            width: 80%;' +
+            '            background-color: #f2f1ff;' +
+            '            position: absolute;' +
+            '            left: 10%;' +
+            //'            bottom: 0;'+
+            '            top: 100%;' +
+            //'            transform: translateY(100%);'+
+            //'            transform: scale(1.2);'+
+            '            border-radius: 5px;' +
+            //'            box-shadow: 1px 1px 15px 1px rgb(168, 167, 167);'+
+            '            display: flex;' +
+            '            justify-content: center;' +
+            '			border: 1px solid #bac5ff;' +
+            '			align-items:center;' +
+            '            z-index: 9;' +
+            '        }' +
+            '        ' +
+            '	#dn_section_6997aa76-4e63-47fb-a5f6-3e7065d5088a{' +
+            '		margin-top:139px!important;' +
+            '		}' +
+            '		' +
+            '        .shipping-item {' +
+            '            width: 30%;' +
+            '            padding: 10px 0;' +
+            '            display: flex;' +
+            '        }' +
+            '        ' +
+            '        .child-1 {' +
+            '            height: 70px;' +
+            '            margin: 18px 15px 0 15px;' +
+            '        }' +
+            '        ' +
+            '        img {' +
+            '            height: 100%;' +
+            '        }' +
+            '        ' +
+            '        .child-2 {' +
+            '            margin-top: 18px;' +
+            '        }' +
+            '        ' +
+            '        .delivery-heading {' +
+            '            font-size: 13px;' +
+            '            margin-bottom: 5px;' +
+            '        }' +
+            '        ' +
+            '        .delivery-paragraph {' +
+            '            font-size: 11px;' +
+            '            color: #000a3e;' +
+            '        }' +
+            '        ' +
+            '        p.delivery-paragraph strong {' +
+            '            color: #356789;' +
+            '            font-size: 12px;' +
+            '        }' +
+            '        @media (max-width: 768px) {' +
+            '	#dn_section_6997aa76-4e63-47fb-a5f6-3e7065d5088a{' +
+            '		margin-top:250px!important;' +
+            '		}' +
+            '            .delivery {' +
+            '                width: 100%;' +
+            '                display: block;' +
+            '                left: 0;' +
+            '                margin-bottom: 10px;' +
+            //'                transform: translateY(100%);'+
+            '            }' +
+            '            .shipping-item {' +
+            '                width: 100%;' +
+            '                align-items: center;' +
+            '                margin: 0;' +
+            '                padding: 0;' +
+            '            }' +
+            '            .child-1 {' +
+            '                height: 60px;' +
+            '                margin: 0 15px 0 15px;' +
+            '            }' +
+            '            img {' +
+            '                height: 100%;' +
+            '            }' +
+            '            .child-2 {' +
+            '                margin-top: 0;' +
+            '                padding: 10px;' +
+            '            }' +
+            '            .delivery-heading {' +
+            '                font-size: 12px;' +
+            '                margin-bottom: 0;' +
+            '            }' +
+            '            .delivery-paragraph {' +
+            '                font-size: 11px;' +
+            '            }' +
+            '        }';
+        let styles = document.createElement("style");
+        styles.setAttribute("id", "deliveryStyle");
+        styles.innerHTML = style;
+        document.querySelector("head").appendChild(styles);
+        document.querySelector("div.dn-large-header-container > div.dn-large-header > div.dn-other > div > div > div > div.dn_call_icon").style.height = "40px";
+        let delivery = document.createElement("div");
+        delivery.innerHTML = main;
+        document.querySelector("#dn_section_26d6d295-259b-4e72-b168-defde283351d").appendChild(delivery);
+        document.querySelector("#dn_section_0a043e3d-5543-4780-89de-46f7d3ef0a61").style.display = "none";
+        document.querySelector("#dn_s_pc_2cfdccef-abc9-4382-a235-a518006556f3").style.display = "none";
+        document.querySelector("#dn_section_2cfdccef-abc9-4382-a235-a518006556f3").style.paddingTop = "0";
+        document.querySelector("#dn_section_2cfdccef-abc9-4382-a235-a518006556f3").innerHTML = main;
+    }
+});
+// Shipping Options Section in Home Page (Mob and Pc version) END CODE
+//~~~~~~~~~~~~~~//
+//  Shipping Options Section in T-Shirts(Products) Page (pathname blank_product)  START CODE
+if (location.pathname.includes('blank_product')) {
+    document.querySelector("#properties_product_details div.dn-product-extra-details-container div.dn-collapse-header.dn-behaviour[data-collapse-panel=product_shipping_panel] > h4.dn-styled.dn-sized").innerText = "Delivery dates";
+    let images = [
+        "/uploads/12037607/Image/1.png",
+        "/uploads/12037607/Image/2.png",
+        "/uploads/12037607/Image/3.png"
+    ];
+    let headings = [
+        "Standard Production",
+        "Rush",
+        "Need Earlier?"
+    ];
+    let paragraphs = [
+        "Arrives by <strong>" + GetWorkingWeekDay(6) + ", " + GetWorkingDays(6) + "</strong>",
+        "Guaranteed on <strong>" + GetWorkingWeekDay(2) + ", " + GetWorkingDays(2) + "</strong> for orders placed by midnight.",
+        "Call us now!<br /><strong>(877) 807-4909</strong>"
+    ];
+    let main = '<div class="delivery">' +
+        '        <div class="shipping-item">' +
+        '                <div class="child-1">' +
+        `                    <img src="${images[0]}">` +
+        '                </div>' +
+        '                <div class="child-2">' +
+        `                    <h4 class="delivery-heading">${headings[0]}</h4>` +
+        `                    <p class="delivery-paragraph">${paragraphs[0]}</p>` +
+        '                </div>' +
+        '        </div>' +
+        '        <div class="shipping-item">' +
+        '                <div class="child-1">' +
+        `                    <img src="${images[1]}">` +
+        '                </div>' +
+        '                <div class="child-2">' +
+        `                    <h4 class="delivery-heading">${headings[1]}</h4>` +
+        `                    <p class="delivery-paragraph">${paragraphs[1]}</p>` +
+        '                </div>' +
+        '        </div>' +
+        '        <div class="shipping-item">' +
+        '                <div class="child-1">' +
+        `                    <img src="${images[2]}">` +
+        '                </div>' +
+        '                <div class="child-2">' +
+        `                    <h4 class="delivery-heading">${headings[2]}</h4>` +
+        `                    <p class="delivery-paragraph">${paragraphs[2]}</p>` +
+        '                </div>' +
+        '        </div>' +
+        '    </div>';
+    let style = '.delivery {' +
+        '            width: 80%;' +
+        '            background-color: #fff;' +
+        '            border-radius: 5px;' +
+        '            box-shadow: 1px 1px 15px 1px rgb(168, 167, 167);' +
+        '            display: flex;' +
+        '            justify-content: space-around;' +
+        '            z-index: 9;' +
+        '        }' +
+        '        ' +
+        '	#dn_section_6997aa76-4e63-47fb-a5f6-3e7065d5088a{' +
+        '		margin-top = 55px;!important' +
+        '		}' +
+        '		' +
+        '        .shipping-item {' +
+        '            width: 30%;' +
+        '            padding: 10px 0;' +
+        '            display: flex;' +
+        '        }' +
+        '        ' +
+        '        .child-1 {' +
+        '            height: 70px;' +
+        '            margin: 18px 15px 0 15px;' +
+        '        }' +
+        '        ' +
+        '        img {' +
+        '            height: 100%;' +
+        '        }' +
+        '        ' +
+        '        .child-2 {' +
+        '            margin-top: 18px;' +
+        '        }' +
+        '        ' +
+        '        .delivery-heading {' +
+        '            font-size: 13px;' +
+        '            margin-bottom: 5px;' +
+        '        }' +
+        '        ' +
+        '        .delivery-paragraph {' +
+        '            font-size: 11px;' +
+        '            color: silver;' +
+        '        }' +
+        '        ' +
+        '        p.delivery-paragraph strong {' +
+        '            color: black;' +
+        '            font-size: 12px;' +
+        '        }' +
+        '        @media (min-width: 0px) {' +
+        '	#dn_section_6997aa76-4e63-47fb-a5f6-3e7065d5088a{' +
+        '		margin-top = 250px;!important' +
+        '		}' +
+        '            .delivery {' +
+        '                width: 100%;' +
+        '                display: block;' +
+        '                margin-bottom: 10px;' +
+        '            }' +
+        '            .shipping-item {' +
+        '                width: 100%;' +
+        '                align-items: center;' +
+        '                margin: 0;' +
+        '                padding: 0;' +
+        '            }' +
+        '            .child-1 {' +
+        '                height: 60px;' +
+        '                margin: 0 15px 0 15px;' +
+        '            }' +
+        '            img {' +
+        '                height: 100%;' +
+        '            }' +
+        '            .child-2 {' +
+        '                margin-top: 0;' +
+        '                padding: 10px;' +
+        '            }' +
+        '            .delivery-heading {' +
+        '                font-size: 12px;' +
+        '                margin-bottom: 0;' +
+        '            }' +
+        '            .delivery-paragraph {' +
+        '                font-size: 11px;' +
+        '            }' +
+        '        }';
+    let styles = document.createElement("style");
+    styles.setAttribute("id", "deliveryStyle");
+    styles.innerHTML = style;
+    document.querySelector("head").appendChild(styles);
+    document.querySelector("div.dn-large-header-container > div.dn-large-header > div.dn-other > div > div > div > div.dn_call_icon").style.height = "40px";
+    let delivery = document.createElement("div");
+    delivery.innerHTML = main;
+    document.querySelector("#product_shipping_panel div.dn-product-shipping-info").appendChild(delivery);
+    document.querySelector("#product_shipping_panel div.dn-product-shipping-info").innerHTML = main;
+};
+//  Shipping Options Section in T-Shirts(Products) Page (pathname blank_product)  END CODE 
+//Catalogue Only Unisex. Women. Youth.     
+try {
+    let catalogues = document.querySelectorAll("#dn_col_53ac0cd1-03ed-449d-87b3-53cbb88120a7 div.dn-widget.dn-widget-612a505a-9e7e-43c2-9aed-b3bbf7c91a50.dn-widget-blank_product_categories > div > div > div > ul > li");
+    for (let i = catalogues.length - 1; i >= catalogues.length - 3; i--) {
+        catalogues[i].style.display = "none";
+    }
+} catch (err) { console.log(err.message); }
+//Save Design section in Design Page DESKTOP VERS START
+document.addEventListener("DOMContentLoaded", function () {
+    try {
+        document.querySelector("#designer_container > div.dn-designer-toolbar-user-actions > div.dn-designer-toolbar-price > div.dn-designer-price-container").innerHTML = "<i class='fas fa-save' aria-hidden='true' style='display: block;font-size: 28px;'></i>Save Design";
+        let cssquery = "cursor:pointer;font-weight: bold;line-height: 1.2em;font-size: 1em;font-family: Montserrat;";
+        document.querySelector("#designer_container > div.dn-designer-toolbar-user-actions > div.dn-designer-toolbar-price > div.dn-designer-price-container").setAttribute("style", cssquery);
+        document.querySelector("#designer_container > div.dn-designer-toolbar-user-actions > div.dn-designer-toolbar-price > div.dn-designer-price-container").setAttribute("onclick", "SaveMyDesign();");
+    } catch (err) { console.log(err.message); }
+})
+//Save Design section in Design Page DESKTOP VERS  END
+//~~~~~~~~//
+function SaveMyDesign() {
+    if (!d.currentCProduct.hasDecorations()) {
+        swal("Your design is blank! Please add text or an image before checking sizes and pricing.");
+        return false;
+    };
+    document.querySelector("#dynamic_popup").innerHTML = '<div class="dn-popup-background"> </div>' +
+        '  <div class="dn-popup dn-designer-dynamic-popup dn-designer-popup" id="dynamic_popup_content">' +
+        '    ' +
+        '  </div>';
+    d.emailDesign();
+    let interval = setInterval(function () {
+        try {
+            if (document.querySelector("#dynamic_popup").className == "dn-popup-container dn-alt") {
+                if (document.querySelector("#email_data > div.dn-d-email-product-details > input[type=hidden]").value.length > 0) {
+                    if (document.querySelector("#email_data > div.dn-d-email-product-details > div > img").getAttribute("src").length > 0) {
+                        localStorage.TshirtIMG = document.querySelector("#email_data > div.dn-d-email-product-details > div > img").getAttribute("src");
+                        localStorage.inputvalue = document.querySelector("#email_data > div.dn-d-email-product-details > input[type=hidden]").value;
+                        clearInterval(interval);
+                        //
+                        let MyDesignSendMyEmailDIV = '<div class="dn-popup-background"> </div>' +
+                            '<div class="dn-popup dn-designer-dynamic-popup dn-designer-popup dn-at-fullheight" id="dynamic_popup_content" style="' +
+                            '    width: 40%;' +
+                            '    height: auto;' +
+                            '">' +
+                            '    <h3 class="dn-styled">Save your design</h3>' +
+                            '    <div class="dn-popup-content-container">' +
+                            '        <div class="dn-popup-content">' +
+                            '            <div class="dn-popup-content-scroll">' +
+                            '                <div class="dn-d-email-container" id="email_data" style="' +
+                            '    text-align: center;' +
+                            '">' +
+                            '                    <div class="dn-d-email-product-details" style="margin: auto;text-align: center;display: block;">' +
+                            '                        <h4 class="dn-styled">Gildan Heavy Cotton T-Shirt</h4>' +
+                            '                        <input type="hidden" name="id" value="">' +
+                            '                        <div class="dn-d-email-thumbnail" style="width: 30%;margin: auto;">' +
+                            '                            <img>' +
+                            '                        </div>' +
+                            '                    </div>' +
+                            '                    <div class="dn-d-email-form-container" style="width: 100%;text-align: center;">' +
+                            '<ul class="dn-form dn-split-50-50">' +
+                            '            <li>' +
+                            '              <label style="display: block;text-align: center;width: 100%;">Your Email Address</label>' +
+                            '              <div><input class="dn-styled" type="text" name="t"></div>' +
+                            '            </li>' +
+                            '            <li style="display:none">' +
+                            '              <label>Your name</label>' +
+                            '              <div><input class="dn-styled" type="text" name="f"></div>' +
+                            '            </li>' +
+                            '            <li style="display:none">' +
+                            '              <label>Your Email Address</label>' +
+                            '              <div><input class="dn-styled" type="text" name="r"></div>' +
+                            '            </li>' +
+                            '            <li style="display:none">' +
+                            '              <label>Email subject</label>' +
+                            '              <div><input class="dn-styled emailSubject" type="text" name="s"></div>' +
+                            '            </li>' +
+                            '            <li style="display:none">' +
+                            '              <label>Add a personal message</label>' +
+                            '              <div><textarea class="dn-styled" name="te" rows="8" cols="50"></textarea>' +
+                            '                    </div>' +
+                            '                    </li>' +
+                            '                    </ul>' +
+                            '                    </div>' +
+                            '                </div>' +
+                            '            </div>' +
+                            '        </div>' +
+                            '    </div>' +
+                            '    <div class="dn-popup-footer dn-2-button">' +
+                            '        <!--' +
+                            '  -->' +
+                            '        <div class="dn-btn dn-btn-ok dn-styled" onclick="d.sendEmail();">' +
+                            '            <div class="dn-btn-valign"></div>' +
+                            '            <div class="dn-btn-icon"></div>' +
+                            '            <div class="dn-btn-label"><span>Send</span></div>' +
+                            '        </div>' +
+                            '        <!--' +
+                            '  -->' +
+                            '        <div class="dn-btn dn-btn-cancel dn-styled" onclick="closePopup(\'dynamic_popup\');">' +
+                            '            <div class="dn-btn-valign"></div>' +
+                            '            <div class="dn-btn-icon"></div>' +
+                            '            <div class="dn-btn-label"><span>Cancel</span></div>' +
+                            '        </div>' +
+                            '        <!--' +
+                            '  -->' +
+                            '    </div>' +
+                            '</div>';
+                        document.querySelector("#dynamic_popup").innerHTML = MyDesignSendMyEmailDIV;
+                        document.querySelector("#email_data > div.dn-d-email-product-details > div > img").setAttribute("src", localStorage.TshirtIMG);
+                        document.querySelector("#email_data > div.dn-d-email-product-details > input[type=hidden]").value = localStorage.inputvalue;
+                        document.querySelector("#email_data input.emailSubject").value = "My Design " + Date();
+                        //
+                    }
+                }
+            }
+        } catch (err) { console.log(err.message); };
+    }, 100)
+}
+// Share Design Function START DESKTOP Version
+function ShareMyDesign() {
+    if (!d.currentCProduct.hasDecorations()) {
+        swal("Your design is blank! Please add text or an image before checking sizes and pricing.");
+        return false;
+    };
+    document.querySelector("#dynamic_popup").innerHTML = '<div class="dn-popup-background"> </div>' +
+        '  <div class="dn-popup dn-designer-dynamic-popup dn-designer-popup" id="dynamic_popup_content">' +
+        '    ' +
+        '  </div>';
+    d.emailDesign();
+    let interval = setInterval(function () {
+        try {
+            if (document.querySelector("#dynamic_popup").className == "dn-popup-container dn-alt") {
+                if (document.querySelector("#email_data > div.dn-d-email-product-details > input[type=hidden]").value.length > 0) {
+                    if (document.querySelector("#email_data > div.dn-d-email-product-details > div > img").getAttribute("src").length > 0) {
+                        document.querySelector("#dynamic_popup_content > div.dn-popup-content-container > div > div > div.dn-divider-with-text").remove();
+                        document.querySelector("#dynamic_popup_content > div.dn-popup-content-container > div > div > h4").remove();
+                        document.querySelector("#dynamic_popup_content > div.dn-popup-content-container > div > div > p").remove();
+                        document.querySelector("#email_data").remove();
+                        document.querySelector("#dynamic_popup_content > div.dn-popup-footer.dn-2-button > div.dn-btn.dn-btn-ok.dn-styled").style.display = "none";
+                        clearInterval(interval);
+                    }
+                }
+            }
+        } catch (err) { console.log(err.message); };
+    }, 100)
+}
+// Change Onclick Value of Share Button
+document.addEventListener("DOMContentLoaded", function () {
+    if (location.href.includes("yesweprint.com/designer/")) {
+        try {
+            document.querySelector("#sundry_options_container > div.dn-designer-toolbar-email.dn-behaviour.dn-icon-share").setAttribute("onclick", "ShareMyDesign()");
+        } catch (err) { console.log(err.message); }
+    }
+});
+// Set first and second child  white and black colors in Designer page and Product page
+window.addEventListener("load", function () {
+    BlackAndWhiteColorChildNodes();
+  const isDesignPage = window.location.pathname.includes("designer/customize");
+  
+  if(isDesignPage){
+	let setTextOverColorAndBlackWhiteColors = setInterval(function(){
+	 setTextOverColors();
+	},1000)
+    
+	}
+});
+// END
+function BlackAndWhiteColorChildNodes() {
+    const isDesignPage = window.location.pathname.includes("designer/customize");
+    const isProductPage = window.location.pathname.includes("blank_product");
+    if (isDesignPage || isProductPage) {
+        const blackColor = document.querySelector('#pt_col_1 .dn-color-panel-cell[title*="Black"]');
+        const whiteColor = document.querySelector('#pt_col_1 .dn-color-panel-cell[title*="White"]');
+        const AllColors = document.querySelector('#pt_col_1');
+        AllColors.insertBefore(blackColor, AllColors.childNodes[0]);
+        AllColors.insertBefore(whiteColor, AllColors.childNodes[0]);
+    };
+}
+function setTextOverColors() {
+    const isProductPage = window.location.pathname.includes("blank_product");
+    const isDesignerPage = window.location.pathname.includes("designer/customize");
+    if (isProductPage || isDesignerPage) {
+        const colors = $dnj("#pt_col_1 .dn-color-panel-cell");
+        colors.each(function (i) {
+            const colorname = $dnj(colors[i]).attr("title");
+            $dnj(colors[i]).children("b").text(colorname);
+        });
+    }
+    BlackAndWhiteColorChildNodes();
+};
+  
+  /*Design Size Edit PopUp in DesignerPage*/
+  function designsizeeditdiv(){
+    if (d.currentCProduct.hasDecorations()) {
+        if (document.querySelector(".shipping-rush-order-options") == null) {
+            document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-footer.dn-2-button").style.visibility = "hidden";
+        };
+        if (Object.entries(arrayCalcPriceToSize).length > 0) {
+            sizeinputs = document.querySelectorAll("#multi_container_2 ul li input");
+            for (let i in arrayCalcPriceToSize) {
+                for (let j of sizeinputs) {
+                    if (i == j.getAttribute("id")) {
+                        j.value = arrayCalcPriceToSize[i];
+                    }
+                }
+            }
+        }
+        if (document.querySelector("#pt_fc_2 > label") != null) {
+            document.querySelector("#pt_fc_2 > label").remove();
+        }
+        let title = document.querySelector(
+            "#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > h3"
+        );
+        title.innerText = d.currentCProduct.product.name;
+        title.style.textAlign = "center";
+        if (document.querySelector("div#prodimg") == null) {
+            let currProdImg = document.createElement("div");
+            currProdImg.setAttribute("id", "prodimg");
+            currProdImg.setAttribute("style", "text-align:center");
+            let img = document.createElement("img");
+            img.setAttribute("alt", "Current Product Image");
+            currProdImg.append(img);
+            let content = document.querySelector(
+                "#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-content-container > div"
+            );
+            content.insertBefore(currProdImg, content.childNodes[0]);
+        };
+        let CheckProdImgInterval = setInterval(function () {
+            if (d.currentCView.viewSrc != undefined) {
+                document.querySelector("div#prodimg img").setAttribute("src", d.currentCView.viewSrc);
+                clearInterval(CheckProdImgInterval);
+            }
+        }, 200);
+        if (document.querySelector("div#prodimg i") == null) {
+            let closebtn = '<i class="far fa-times-circle" onclick="d.sizeSelected = false;closePopup(\'size_field_popup\');" aria-hidden="true" style="' +
+                '    position: absolute;' +
+                '    right: 1rem;' +
+                '    top: 1rem;' +
+                '    font-size: 30px;' +
+                '    color: #f95800;' +
+                '    cursor:pointer;' +
+                '"></i>';
+            document.querySelector("div#prodimg").innerHTML += closebtn;
+        } else {
+            document.querySelector("div#prodimg i").style.display = "block";
+        }
+        if (document.querySelector("style#SelectSizeStyle") == null) {
+            let style = document.createElement("style");
+            style.setAttribute("id", "SelectSizeStyle");
+            style.innerText =
+                "div.dn-d-size-multi-container ul li label { display:block !important; text-align:center !important; }" +
+                "#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-footer.dn-2-button{visibility: visible;}";
+            document.querySelector("head").append(style);
+        }
+        if (document.querySelector("div.CalcBtnDiv") == null) {
+            let CalcBtnDiv = document.createElement("div");
+            CalcBtnDiv.setAttribute("class", "CalcBtnDiv");
+            CalcBtnDiv.innerHTML = "<input id='CalcBtn' type='button' onclick='ClickedCalcBtn();' value='Calculate Price'>"
+            document.querySelector(
+                "#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-content-container > div"
+            ).append(CalcBtnDiv);
+            document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-footer.dn-2-button > div.dn-btn.dn-btn-ok.dn-styled").style.display = "none";
+            document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-content-container").style.height = "auto";
+            document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup").style.overflow = "auto";
+            document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-footer.dn-2-button").style.height = "auto";
+            document.querySelector("#size_field_popup > div.dn-popup.dn-designer-select-size-popup.dn-designer-popup > div.dn-popup-footer.dn-2-button").style.padding = "6px";
+        };
+    }
+}
+  // Fix DTG Text Resizing and Fix Scam Link in Design Studio
+  document.addEventListener("DOMContentLoaded", function () {
+		if(location.href.includes("yesweprint.com/designer/")){
+			// Fix Scam Link in Design Studio
+          history.pushState("Link", 'Designer Studio Link Short', location.pathname);
+          //////////////
+           // Fix DTG Text Resizing
+          d.continueAddText = function(){
+			var text = $("new_text").value;
+if (text == null || text == "") {
+  alert(ml("You must enter a value"));
+  return;
+}
+var opts = { text: text };
+var proc = allProcesses.byId[this.newProcessId];
+proc.allowTextEffects = true;
+proc.allowTextGradient = true;
+proc.allowTextOutline = true;
+proc.allowTextResize = true;
+proc.allowTextWarp = true;
+if (proc.isWilcomEMB()) {
+  opts.emb = "1";
+}
+if (
+  d.textBehaviour == "1" ||
+  d.textBehaviour == "2" ||
+  d.textBehaviour == "3"
+) {
+  opts.vec = "1";
+  if (d.textBehaviour == "3") opts.useDnt = "1";
+}
+if (this.newTextOptions != null) {
+  if (this.newTextOptions.toReplace != null) {
+    opts.t = this.newTextOptions.toReplace.top;
+    opts.l = this.newTextOptions.toReplace.left;
+    opts.z = this.newTextOptions.toReplace.zIndex;
+  }
+}
+opts.tc = dColorPicker.getDefaultColor(
+  this.newProcessId,
+  "#FF3333",
+  proc.defaultTextColorId
+);
+opts.justAddedFromUI = true;
+opts.hp = "1";
+opts.takeSnapshot = true;
+opts.blockingActionId = this.startBlockingAction("Adding New Text");
+if (opts.useDnt == "1" && opts.emb != "1") {
+  var usedPages = this.getFontProvider().getUsedUtf8(text);
+  var fontFace = this.getFontProvider().getDefaultFontForText(
+    text,
+    this.newProcessId
+  );
+  var self = this;
+  this.getFontProvider().checkFontAvailable(
+    null,
+    fontFace,
+    true,
+    false,
+    text,
+    true,
+    function () {
+      self.addNewItemByAsset(self.newProcessId, new TextAsset(), opts);
+      if (
+        self.newTextOptions != null &&
+        self.newTextOptions.toReplace != null
+      ) {
+        self.newTextOptions.toReplace.del();
+      }
+      self.newTextOptions = null;
+    }
+  );
+} else {
+  this.addNewItemByAsset(this.newProcessId, new TextAsset(), opts);
+  if (this.newTextOptions != null && this.newTextOptions.toReplace != null) {
+    this.newTextOptions.toReplace.del();
+  }
+  this.newTextOptions = null;
+}
+	
+		  }
+   //When added asset decrease or increase size in Design St
+	d.addAsset = function(options){
+          const xRes = (options.meta && options.meta.x_res) ? options.meta.x_res : 300
+      const w = d.convertLengthFromInches(options.width / xRes);
+       if(w < 7 || w > 10){
+      let newOptionsWidth;
+      let cnt = 0;
+      switch(xRes)
+      {
+        case 100:
+          cnt = 1;
+          break;
+        case 200:
+          cnt = 3;
+          break;
+        case 300:
+          cnt = 4;
+          break;
+        case 400:
+          cnt = 5;
+          break;
+        case 500:
+          cnt = 6;
+          break;
+        case 600:
+          cnt = 7;
+          break;
+        case 700:
+          cnt = 8;
+          break;
+        default:
+          cnt = xRes / 100 ;
+       
+      }
+      
+      if(w < 7){
+       newOptionsWidth = d.convertLengthToInches(7 * 100 * cnt );
+      }
+      else if(w > 10){
+      	  newOptionsWidth = d.convertLengthToInches(10 * 100 * cnt);
+      }
+     
+           options.height += newOptionsWidth - options.width;
+     	   options.width = newOptionsWidth;
+      }
+     var asset = null;
+    if (parseInt(options.type, 10) == ASSET_TYPE_TEMPLATE_TEXT) {
+      asset = new TemplateTextAsset(options, this);
+    } else if (parseInt(options.type, 10) == ASSET_TYPE_DNT_TEXT) {
+      asset = new TextAsset(options, this);
+    } else {
+      asset = new Asset(options, this);
+    }
+    return this.addAssetObj(asset);
+    }
+   //
+//ur
+   if(document.documentElement.clientWidth <= 576){
+ //  d.selectCurrentView function's overriding;  
+     d.selectCurrentView = function(id, areaId, duringLoad){
+    log("selectCurrentView()");
+	let currViewOptions = this.currentCProduct.getView(id, true);
+    if(currViewOptions == null) {
+      log("View " + id + " not supported");  
+      var firstProc = this.currentCProduct.product.getFirstProcessId();
+      this.initViews(null, [firstProc]);
+      return
+    }
+    this.viewToggle(id); //make it appear selected
+    if(this.currentCView != null) {
+      this.currentCView.hide();
+    }
+    //this.currentView = this.currentProduct.views.byId[id];
+    this.currentCView = this.currentCProduct.getView(id, true);
+    //this.currentCView.setDesignerBackground(); show() will do this
+    var handleAreaId = function(areaId) {
+      if(areaId == null) { //no area passed... get the first used area.. if none used get the first area...
+        areaId = d.currentCView.getFirstAreaId();
+        if(areaId == null) {
+          log("selectCurrentView: ERROR: no first area in view");
+        }
+      } else {
+        log("selectCurrentView: using passed areaId:" + areaId);
+      }
+      return areaId;
+    }
+    if(this.inSimpleMode(TEMPLATE_MODE_CP)) {
+      if(this.currentCView.uiPrepared != true) {
+        this.currentCView.prepareUI(null, true);
+      }
+      if(!this.currentCProduct.isNonDecProduct()) {
+        areaId = handleAreaId(areaId);
+        this.selectCurrentArea(areaId, false); //set the area while in simple mode as some popups use it, i.e. select screen colors
+      }
+      this.currentCView.setBgPosition();
+      this.currentCView.show();
+    } else if(this.mode != DESIGNER_MODE_VIEW_CUSTOM_PRODUCT) { //lets also set the area and load the items used in that area
+      if(!this.currentCProduct.isNonDecProduct()) {
+        areaId = handleAreaId(areaId);
+      }
+      this.currentCView.show();
+      if(!this.currentCProduct.isNonDecProduct()) {
+        this.selectCurrentArea(areaId, false);
+        this.currentCView.setBgPosition();
+      }
+    } else if(this.currentCView.productView.nonVis) {
+      var vid = this.currentCProduct.product.getFirstVisViewId();
+      //we will load the designer...
+      if(duringLoad && vid != null) {
+        //find the first vis view...
+        log("Loading a vis view");
+        this.selectCurrentView(vid);
+      } else {
+        msgBox("Loading Designer", "Please wait while the designer loads");
+        this.loadInDesigner({mode:"BLANK_PRODUCT", viewId:this.currentCView.productView.id});
+      }
+      return;
+    } else {
+      this.currentCView.show();
+    }
+    this.currentCView.checkBgImage();
+// calculateBackgroundPosition function's overriding Start
+      d.currentCView.calculateBackgroundPosition = function (zoomed, designOnly) {
+    
+    if(zoomed) {
+      if(designOnly) {
+        var areaPosition = this.selectedArea.getDesignZoomScale();
+      } else {
+        var areaPosition = this.selectedArea.productArea.getZoomedDesignerPosition();
+      }
+      //we have the positon of the area... we need the position of the background element....
+      var left = 0 - (areaPosition.s * areaPosition.ol) + areaPosition.l;
+      var top = 0 - (areaPosition.s * areaPosition.ot) + areaPosition.t;
+      var width = areaPosition.s * d.canvasSize;
+      var height = areaPosition.s * d.canvasSize;
+      var reScale = areaPosition.s;
+      return {
+        l: left,
+        t: top,
+        w: width,
+        h: height,
+        s: reScale
+      }
+    } else {
+      var bb = d.getDesignerSize();
+      var reScale;
+      if(bb.h >= bb.w) {
+        //fit using width
+        log("using width to fit");
+        reScale = parseFloat(bb.w) / parseFloat(d.canvasSize);
+        console.log(reScale,"width");
+      } else {
+        log("using height to fit");
+        reScale = parseFloat(bb.h) / parseFloat(d.canvasSize);
+         console.log(reScale,"height");
+      }
+      
+     reScale += 0.3;
+      var w = d.canvasSize * reScale;
+      var h = d.canvasSize * reScale;
+      var l = (bb.w - w) / 2;
+      var t = (bb.h - h) / 2;
+      
+      return {
+        l: l,
+        t: t,
+        w: w,
+        h: h,
+        s: reScale
+      }
+      
+    }
+}
+d.currentCView.toggleZoomMode();
+}
+// calculateBackgroundPosition function's overriding END
+  //  d.selectCurrentView function's overriding END ;
+}
+    
+    
+//ur
+/***********************/
+		}
+  })
+</script>
+</body>
+</html>
